@@ -1,9 +1,9 @@
 {
-  "name": "michaeldegroot/doctrine-encrypt-bundle",
+  "name": "h2entwicklung/doctrine-encrypt-bundle",
   "type": "library",
   "keywords": ["doctrine", "symfony", "halite", "defuse", "encrypt", "decrypt"],
   "license": "MIT",
-  "description": "Encrypted symfony entity's by verified and standardized libraries",
+  "description": "Encrypted symfony entity's by verified and standardized libraries Works with Symfony >5.1. This Package replaces the abandoned GiveMeAllYourCats/DoctrineEncryptBundle which is not longer maintained",
   "require": {
     "php": "^7.2",
     "paragonie/halite": "^4.6",
@@ -12,8 +12,8 @@
     "symfony/property-access": "^4.1|^5.0",
     "symfony/dependency-injection": "^4.1|^5.0",
     "symfony/yaml": "^4.1|^5.0",
-    "symfony/http-kernel": "^4.1|^5.0",
-    "symfony/config": "^4.1|^5.0"
+    "symfony/http-kernel": "^5.1",
+    "symfony/config": "^5.1"
   },
   "require-dev": {
     "phpunit/phpunit": "^6.5",
@@ -31,8 +31,8 @@
   },
   "authors": [
     {
-      "name": "GiveMeAllYourCats",
-      "email": "specamps@gmail.com"
+      "name": "h2entwicklung",
+      "email": "info@h2-invent.com"
     }
   ]
 }
